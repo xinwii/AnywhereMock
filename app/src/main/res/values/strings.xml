@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">模拟定位</string>
+
+    <string name="action_exit">停止定位</string>
+    <string name="action_more">更多</string>
+    <string name="action_search">搜索</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_updata">版本更新</string>
+    <string name="action_setting">快速设置</string>
+    <string name="action_illustrate">使用说明</string>
+    <string name="action_share">分享软件</string>
+    <string name="action_user">个人中心</string>
+    <string name="action_weixin">快速启动微信</string>
+    <string name="come_through">你成功穿越到了☞</string>
+    <string name="hint_setting">检测到您的手机设置不正确，暂时无法开启虚拟定位，请按下列提示设置后，再开启虚拟定位！</string>
+    <string name="mn_hint_text">①开启☞允许模拟位置</string>
+    <string name="wz_hint_text">②关闭☞位置服务</string>
+    <string name="hint_error">✘(点击快速设置)</string>
+    <string name="hint_true">✔ (此处设置正确)</string>
+    <string name="collection_click">收藏</string>
+    <string name="through_click">穿越到这里</string>
+    <string name="prepare_addr">预选地址:</string>
+    <string name="cancle_btn">取消</string>
+    <string name="delete_btn">删除(0)</string>
+
+    <string name="cj_question">常见问题集合：</string>
+    <string name="cj_question_a1">1、提示显示穿越成功了，为什么没有成功修过手机地址？</string>
+    <string name="cj_question_a2">答：本软件提示穿越成功了并不代表成功修过了地址，需看您的手机设置是否正确以及需要实现修改地址的软件是否在本软件的适用范围，适用软件范围可查看下列问题.</string>
+    <string name="cj_question_b1">2、支持的软件和暂不支持的软件有哪些？</string>
+    <string name="cj_question_b2">答：①已知可支持的软件：今目标、微博、微信（6.3之前版本，不包括6.3）、纷享逍客（5.20之前版本，不包括5.20）、QQ（5.3之前版本，定位发送有效，貌似附近人无效）等等；\n② 已知暂不支持软件：陌陌、钉钉；\n③其他考勤软件等种类较多没有一一测试，需要亲自行根据实际使用情况确定是否有效，后续将会逐渐完善。</string>
+    <string name="cj_question_c1">3、微信、纷享逍客为什么没有效果？</string>
+    <string name="cj_question_c2">答：微信6.3版本开始，纷享逍客5.20版本开始，都屏蔽了模拟定位，需要卸载高版本，安装之前的版本就能使用了。</string>
+    <string name="cj_question_d1">4、为什么有的手机微信QQ最新版本都能使用？</string>
+    <string name="cj_question_d2">答：确实有少量手机能使用微信和qq的最新版本，如魅族的部分机型，nexus系列部分机型，可能是因为系统版本上的区别，目前android手机市场混乱，各种定制系统，这也就照成了各种问题，以上适合大部分手机的方法。</string>
+    <string name="cj_question_e1">5、为什么今目标等考勤定位会出现，真实地址和伪装地址之前一直跳动？</string>
+    <string name="cj_question_e2">答：每款软件的定位设计不一样，有些软件会缓存真实的地理位置，然后一段时间才重新获取，解决方法：清除缓存地址，软件上有定位按钮的就多单击几次定位，然后看清楚地址了再上报考勤位置。</string>
+    <string name="cj_question_f1">6、旧版本微信安装失败，怎么解决？</string>
+    <string name="cj_question_f2">答：安装任何软件的旧版本都需要先卸载较高版本，才能安装较低的版本。</string>
+    <string name="cj_question_g1">7、微信如何定位到国外？</string>
+    <string name="cj_question_g2">答：由于国内地图都无法显示国外地图数据信息，所有可以通过移动地图到国外的位置， 然后点击穿越到这里（然后就看可以打开微信附近人查看是否有效了，微信发送地图的无地图显示，还是那句话国内地图不显示国外数据）。</string>
+    <string name="cj_addweixin">微商使用微信等注意事项</string>
+    <string name="cj_addweixin_a1">1、打开微信附近人为什么能看到别人，别人看不到我，或者看不附近人？</string>
+    <string name="cj_addweixin_a2">答：出现这种情况的话就是被微信官方屏蔽了，原因：大量加人、大量发广告、被人举报、是微信小号资料不完善等等. \n解决办法：完善微信账号资料，清除微信地理位置缓存、绑定QQ手机号码、修改头像、修改个性签名、修改昵称、清除缓存地址，做完这些步骤以后彻底退出账号几个小时或者一天，未正常前不可再发广告或加人。</string>
+    <string name="cj_addweixin_b1">2、微商使用微信什么版本较为安全？</string>
+    <string name="cj_addweixin_b2">答：微商建议使用6.0版本，经测试可以最大程度避免出现大量异常好友被限制或者被封号等情况.</string>
+    <string name="cj_addweixin_c1">3、微商使用微信有什么安全加人方法？</string>
+    <string name="cj_addweixin_c2">答：使用微信6.0以下的老版本，建议1个小时更换一次新的地理位置，30分钟刷新一次附近人，加一次好友10个左右； 微商具备2个以上微信账号，加人账号与发广告账号区分开来，同一个账号加人同时不发广告，发广告的不加人，微商账号使用本定位软件的时候尽量不要使用摇一摇功能.</string>
+    <string name="cj_addweixin_d1">4、微信账号被屏蔽的时间是多久？</string>
+    <string name="cj_addweixin_d2">答：第一次屏蔽按上述办法解决后1天左右恢复，第二次被屏蔽大概3天左右恢复，第三次被屏蔽大概为7天或更长时间.</string>
+    <string name="cj_addweixin_e1">5、请问有微信多开版本提供吗？</string>
+    <string name="cj_addweixin_e2">答：这个问题很严谨，不管是微商还是个人娱乐使用，都不建议使用破解版本的微信，会造成严重的封号情况，所有不提供。</string>
+    <string name="cj_addweixin_f1">6、我不是微商，使用本定位软件伪装微信也要注意这些吗？</string>
+    <string name="cj_addweixin_f2">答：个人使用的微信一般资料都齐全，也很少发广告等或出现被人举报的情况，纯属加下附近人娱乐的可以使用微信6.2版本，一般只要没有出现频繁更换位置异常大量加好友是不会被屏蔽的，请放心使用.</string>
+</resources>

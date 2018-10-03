@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/icon_search"
+        android:title="搜索"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_collect"
+        android:icon="@mipmap/icon_collect"
+        android:title="收藏"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_collect2"
+        android:title="收藏"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_intro"
+        android:title="使用说明"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_stop_location"
+        android:title="停止定位"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_down_apk"
+        android:title="下载旧微信等"
+        app:showAsAction="never" />
+</menu>
