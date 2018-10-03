@@ -1,8 +1,17 @@
-使用android内置的模拟定位实现，可以收藏地址
+Simulated positioning
 
-### 1.开启一个后台service，service中启动一个子线程，每隔100ms不停locationManager.setTestProviderLocation(mMockProviderName, location)
-### 2.采用百度地图，模拟定位时，将bd0911转换gps84
-#### 1.gcj02：国家要求的加密算法
-#### 2.bd0911：百度基于gcj02自行研发的加密算法
-#### 3.gps84，gps用的经纬度
-### 3.已集成jks文件，android studio3.2（或3.1）直接运行就可以了，如果换包名或密钥，得去百度地图后台注册
+### 1.使用说明
+#### 1.不要任何权限。
+#### 2.kotlin语言。
+#### 3.已集成jks文件，android studio3.2（或3.1）直接运行就可以了，如果换包名或密钥，得去百度地图后台注册。否则地图不显示。
+
+### 2.技术原理
+#### 1.开启一个后台service，service中启动一个子线程，每隔100ms不停locationManager.setTestProviderLocation(mMockProviderName, location)
+#### 2.采用百度地图，模拟定位时，将bd0911转换gps84，否则地址偏离几公里。
+##### 1.gcj02：国家要求的加密算法（为了国家安全。。。）
+##### 2.bd0911：百度基于gcj02自行研发的加密算法
+##### 3.gps84，gps用的经纬度（模拟定位最终用这个经纬度）
+
+### 3.注意事项
+#### 1.微信需6.3以下版本(不包含6.3),纷享销客5.20以下(不包含5.20),今目标，微博等均支持。参照app内使用说明。旧版本提供了下载地址。百度地图新版不支持。百度地图新版不支持。
+#### 2.手机定位方式目前有4种：基站定位，WIFI定位，GPS定位，AGPS定位。最好的办法肯定是xposed hook系统方法，那个github有人实现了，这种最简单的，局限性很大。
